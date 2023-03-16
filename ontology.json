@@ -1,0 +1,2125 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "baseIris" : [ "http://www.semanticweb.org/van_gogh_ontology", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "3",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "0",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Interpretation",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Interpretation"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Transformative_Power_of_Nature_and_Art",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Transformative_Power_of_Nature_and_Art"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Religious_Meaning",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Religious_Meaning"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Personal_Struggles_with_Mental_Illness",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Personal_Struggles_with_Mental_Illness"
+      }
+    } ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Imagionary_Place",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Imagionary_Place"
+    },
+    "id" : "11",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Elements_of_Composition",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Elements_of_Composition"
+    },
+    "subClasses" : [ "15", "16", "17", "18" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Town",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Town"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Arles",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Arles"
+      }
+    } ],
+    "id" : "48",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Artistic_Approach",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Artistic_Approach"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Unique_Style",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Unique_Style"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Working_from_Imagination",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Working_from_Imagination"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Visual_Impact",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Visual_Impact"
+      }
+    } ],
+    "id" : "57"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Painting",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Painting"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Starry_Night_Order_the_Rhone",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Starry_Night_Order_the_Rhone"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Cafe_Terrace_at_Night",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Cafe_Terrace_at_Night"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Irises",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Irises"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#The_Bedroom",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "The_Bedroom"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Starry_Night",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Starry_Night"
+      }
+    } ],
+    "id" : "51",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#View",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "View"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#View_From_Bedroom_Window",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "View_From_Bedroom_Window"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Urban_landscapes_of_Arles",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Urban_landscapes_of_Arles"
+      }
+    } ],
+    "id" : "58",
+    "superClasses" : [ "59" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "60",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "61",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "63",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "64",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "65",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "69",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "70",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Imagination",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Imagination"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Imagination_of_something_sublime",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Imagination_of_something_sublime"
+      }
+    } ],
+    "id" : "71",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "72",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Structured_Compositions",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Structured_Compositions"
+    },
+    "id" : "17",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Color",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Color"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Contrasting_Colors",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Contrasting_Colors"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Bright_Colors",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Bright_Colors"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Natural_Colors",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Natural_Colors"
+      }
+    } ],
+    "id" : "45",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Post-Impressionism"
+    },
+    "id" : "38",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Brushstroke",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Brushstroke"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Bold_Brushstrokes",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Bold_Brushstrokes"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Expressive_Brushstrokes",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Expressive_Brushstrokes"
+      }
+    } ],
+    "id" : "82",
+    "superClasses" : [ "83" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Historical_and_Cultural_Significance",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Historical_and_Cultural_Significance"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Artistic_Legacy",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Artistic_Legacy"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Development_of_Modern_Art",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Development_of_Modern_Art"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Example_of_Post-Impressionist_Style",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Example_of_Post-Impressionist_Style"
+      }
+    } ],
+    "subClasses" : [ "84" ],
+    "id" : "6"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Visual_Tension",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Visual_Tension"
+    },
+    "id" : "16",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Commune",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Commune"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Saint-Rémy-de-Provence",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Saint-Rémy-de-Provence"
+      }
+    } ],
+    "id" : "85",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Biblical_Episode",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Biblical_Episode"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#The_Agony_in_the_Garden",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "The_Agony_in_the_Garden"
+      }
+    } ],
+    "id" : "87"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Use_of_Light",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Use_of_Light"
+    },
+    "id" : "18",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Mountain_Range",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mountain_Range"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Alpilles_mountains",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Alpilles_mountains"
+      }
+    } ],
+    "id" : "106",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Institution",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Institution"
+    },
+    "subClasses" : [ "101" ],
+    "id" : "96",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Scholar",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Scholar"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Lauren_Soth",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Lauren_Soth"
+      }
+    } ],
+    "id" : "107",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Artistic_Expression",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Artistic_Expression"
+    },
+    "subClasses" : [ "94", "82" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Memory",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Memory"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Images_of_crescents_in_art",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Images_of_crescents_in_art"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Typical_churches_of_Brabant_Netherlands",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Typical_churches_of_Brabant_Netherlands"
+      }
+    } ],
+    "id" : "99",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Shape",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Shape"
+    },
+    "id" : "36",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Expressionism",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Expressionism"
+    },
+    "id" : "43",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Line",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Line"
+    },
+    "id" : "47",
+    "superClasses" : [ "75" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "57", "83" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "114"
+  }, {
+    "instances" : 0,
+    "union" : [ "14", "45" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "112",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "57", "87" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "78"
+  }, {
+    "instances" : 0,
+    "union" : [ "94", "14" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "117"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Country",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Country"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#France",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "France"
+      }
+    } ],
+    "id" : "119",
+    "superClasses" : [ "49" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Inspiration",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Inspiration"
+    },
+    "subClasses" : [ "99", "59", "71" ],
+    "id" : "10"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Observed_Reality",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Observed_Reality"
+    },
+    "subClasses" : [ "58" ],
+    "id" : "59",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Place",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Place"
+    },
+    "subClasses" : [ "49", "11" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Idea_of_Artwork",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Idea_of_Artwork"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Idea_StarryNight",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Idea_StarryNight"
+      }
+    } ],
+    "id" : "120"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Artwork",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Artwork"
+    },
+    "subClasses" : [ "51" ],
+    "id" : "2"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Pattern",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pattern"
+    },
+    "subClasses" : [ "56" ],
+    "id" : "68",
+    "superClasses" : [ "124" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Impressionism",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Impressionism"
+    },
+    "id" : "53",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Elements_of_Art",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Elements_of_Art"
+    },
+    "subClasses" : [ "40", "36", "47", "45" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Popular_Culture",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Popular_Culture"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Music",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Music"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Television",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Television"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Films",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Films"
+      }
+    } ],
+    "id" : "84",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Emotion",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Emotion"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Subjective_Emotional_Expression",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Subjective_Emotional_Expression"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Emotional_State",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Emotional_State"
+      }
+    } ],
+    "id" : "94",
+    "superClasses" : [ "83" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Real_Place",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Real_Place"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Arles",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Arles"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Alpilles_mountains",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Alpilles_mountains"
+      }
+    } ],
+    "subClasses" : [ "119", "106", "85", "96", "48" ],
+    "id" : "49",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Painter",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Painter"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Vincent_van_Gogh"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Emile_Bernard",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Emile_Bernard"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Eugene_Henri_Paul_Gauguin",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Eugene_Henri_Paul_Gauguin"
+      }
+    } ],
+    "id" : "55",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Concept_of_Artwork",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Concept_of_Artwork"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Concept_StarryNight",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Concept_StarryNight"
+      }
+    } ],
+    "id" : "110"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Art_Movement",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Art_Movement"
+    },
+    "subClasses" : [ "53", "43", "38" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Asylum",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Asylum"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Saint-Paul-de-Mausole_Asylum",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Saint-Paul-de-Mausole_Asylum"
+      }
+    } ],
+    "id" : "101",
+    "superClasses" : [ "96" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Texture",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Texture"
+    },
+    "id" : "40",
+    "superClasses" : [ "75" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Artist",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Artist"
+    },
+    "subClasses" : [ "55" ],
+    "id" : "9",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Balance",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Balance"
+    },
+    "id" : "15",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Color_Theory",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Color_Theory"
+    },
+    "subClasses" : [ "68" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Complementary_Colors",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Complementary_Colors"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Orange",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Orange"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Citron-yellow",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Citron-yellow"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/van_gogh_ontology#Blue",
+      "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+      "labels" : {
+        "IRI-based" : "Blue"
+      }
+    } ],
+    "id" : "56",
+    "superClasses" : [ "68" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#Person",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "subClasses" : [ "9", "107" ],
+    "id" : "3"
+  } ],
+  "property" : [ {
+    "id" : "1",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "20",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "4",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "37",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "39",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "41",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "42",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "44",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "46",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "52",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "67",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "95",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "103",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "104",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "108",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "111",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "116",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "118",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "121",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "122",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "127",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "132",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "136",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "138",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "139",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "140",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "143",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "144",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "145",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "146",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "147",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "148",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "149",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "150",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "151",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "152",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "153",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "154",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "155",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "156",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "157",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "158",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "159",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "160",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "161",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "162",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "163",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#createdBy",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "createdBy"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "1"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#contributedIn",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "contributedIn"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#inspiredBy",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "inspiredBy"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#preceded",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "preceded"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "13"
+  }, {
+    "domain" : "16",
+    "range" : "16",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "29",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "18",
+    "range" : "18",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "28",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#focusedOn",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "focusedOn"
+    },
+    "domain" : "22",
+    "attributes" : [ "object" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "0",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "0",
+    "subproperty" : [ "24", "25", "26", "1", "13", "27", "28", "29", "30", "31", "32", "33", "34" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "4"
+  }, {
+    "domain" : "36",
+    "range" : "36",
+    "id" : "35",
+    "label" : {
+      "IRI-based" : "25",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "38",
+    "range" : "38",
+    "id" : "37",
+    "label" : {
+      "IRI-based" : "24",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "40",
+    "range" : "40",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "27",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "17",
+    "range" : "17",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "26",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "43",
+    "range" : "43",
+    "id" : "42",
+    "label" : {
+      "IRI-based" : "21",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "45",
+    "range" : "45",
+    "id" : "44",
+    "label" : {
+      "IRI-based" : "20",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "47",
+    "range" : "47",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "23",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#interpretedAs",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "interpretedAs"
+    },
+    "domain" : "51",
+    "attributes" : [ "object" ],
+    "id" : "50"
+  }, {
+    "domain" : "53",
+    "range" : "53",
+    "id" : "52",
+    "label" : {
+      "IRI-based" : "22",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#used",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "used"
+    },
+    "domain" : "55",
+    "attributes" : [ "object" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#isDepictedOn",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "isDepictedOn"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "12",
+    "attributes" : [ "object" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#usedIn",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "usedIn"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "57",
+    "attributes" : [ "object" ],
+    "id" : "28"
+  }, {
+    "domain" : "15",
+    "range" : "15",
+    "id" : "62",
+    "label" : {
+      "IRI-based" : "19",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#evidentInTheUse",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "evidentInTheUse"
+    },
+    "domain" : "68",
+    "attributes" : [ "object" ],
+    "id" : "67"
+  }, {
+    "range" : "2",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "73"
+  }, {
+    "range" : "75",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "74"
+  }, {
+    "range" : "68",
+    "domain" : "56",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#hasSubject",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "65",
+    "label" : {
+      "IRI-based" : "hasSubject"
+    },
+    "domain" : "78",
+    "attributes" : [ "datatype" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#influencedBy",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "influencedBy"
+    },
+    "domain" : "38",
+    "attributes" : [ "object" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#bornInYear",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "69",
+    "label" : {
+      "IRI-based" : "bornInYear"
+    },
+    "domain" : "0",
+    "attributes" : [ "datatype" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#contains",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "contains"
+    },
+    "domain" : "51",
+    "attributes" : [ "object" ],
+    "id" : "81"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#hasMeaning",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasMeaning"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "45",
+    "attributes" : [ "object" ],
+    "id" : "32"
+  }, {
+    "range" : "59",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
+  }, {
+    "range" : "10",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "range" : "12",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "89"
+  }, {
+    "range" : "12",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "90"
+  }, {
+    "range" : "83",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#hasFullName",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "64",
+    "label" : {
+      "IRI-based" : "hasFullName"
+    },
+    "domain" : "0",
+    "attributes" : [ "datatype" ],
+    "id" : "92"
+  }, {
+    "range" : "83",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#admittedTo",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "96",
+    "label" : {
+      "IRI-based" : "admittedTo"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "95"
+  }, {
+    "range" : "10",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "97"
+  }, {
+    "range" : "10",
+    "domain" : "99",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "98"
+  }, {
+    "range" : "96",
+    "domain" : "101",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
+  }, {
+    "range" : "6",
+    "domain" : "84",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#utilized",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "75",
+    "label" : {
+      "IRI-based" : "utilized"
+    },
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#applied",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "applied"
+    },
+    "domain" : "55",
+    "attributes" : [ "object" ],
+    "id" : "104"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#hasNationality",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "hasNationality"
+    },
+    "domain" : "0",
+    "attributes" : [ "datatype" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#hasDescription",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "70",
+    "label" : {
+      "IRI-based" : "hasDescription"
+    },
+    "domain" : "12",
+    "attributes" : [ "datatype" ],
+    "id" : "108"
+  }, {
+    "range" : "14",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "109"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#hasConcept",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "110",
+    "label" : {
+      "IRI-based" : "hasConcept"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "topDataProperty"
+    },
+    "domain" : "0",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "111"
+  }, {
+    "range" : "14",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "113"
+  }, {
+    "range" : "14",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "115"
+  }, {
+    "range" : "14",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#consideredAs",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "72",
+    "label" : {
+      "IRI-based" : "consideredAs"
+    },
+    "domain" : "22",
+    "attributes" : [ "datatype" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#occuredIn",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "occuredIn"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "120",
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#hasTitle",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "hasTitle"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#hasInspirationSource",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "hasInspirationSource"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#emphasized",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "117",
+    "label" : {
+      "IRI-based" : "emphasized"
+    },
+    "domain" : "22",
+    "attributes" : [ "object" ],
+    "id" : "122"
+  }, {
+    "range" : "124",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "123"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#isGivenBy",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "107",
+    "label" : {
+      "IRI-based" : "isGivenBy"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "34"
+  }, {
+    "range" : "9",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "125"
+  }, {
+    "range" : "3",
+    "domain" : "107",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "126"
+  }, {
+    "range" : "3",
+    "domain" : "9",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "127"
+  }, {
+    "range" : "22",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "128"
+  }, {
+    "range" : "49",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "129"
+  }, {
+    "range" : "22",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "130"
+  }, {
+    "range" : "22",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "131"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#seenAs",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "seenAs"
+    },
+    "domain" : "82",
+    "attributes" : [ "object" ],
+    "id" : "132"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#isAbout",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "isAbout"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "120",
+    "attributes" : [ "object" ],
+    "id" : "29"
+  }, {
+    "range" : "49",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "133"
+  }, {
+    "range" : "49",
+    "domain" : "106",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "134"
+  }, {
+    "range" : "49",
+    "domain" : "96",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "135"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#isSignificantElementIn",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "isSignificantElementIn"
+    },
+    "domain" : "45",
+    "attributes" : [ "object" ],
+    "id" : "136"
+  }, {
+    "range" : "75",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "137"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#becameASymbolOf",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "becameASymbolOf"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "138"
+  }, {
+    "range" : "75",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "139"
+  }, {
+    "range" : "49",
+    "domain" : "119",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "140"
+  }, {
+    "range" : "75",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "141"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#hasInterpretation",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "hasInterpretation"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#occuredOn",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "60",
+    "label" : {
+      "IRI-based" : "occuredOn"
+    },
+    "domain" : "120",
+    "attributes" : [ "datatype" ],
+    "id" : "142"
+  }, {
+    "range" : "16",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "143"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#linkedWith",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "94",
+    "label" : {
+      "IRI-based" : "linkedWith"
+    },
+    "domain" : "82",
+    "attributes" : [ "object" ],
+    "id" : "144"
+  }, {
+    "range" : "18",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "145"
+  }, {
+    "range" : "16",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "146"
+  }, {
+    "range" : "16",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "range" : "53",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
+  }, {
+    "range" : "38",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#associatedWith",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "associatedWith"
+    },
+    "domain" : "55",
+    "attributes" : [ "object" ],
+    "id" : "150"
+  }, {
+    "range" : "38",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#referencedIn",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "84",
+    "label" : {
+      "IRI-based" : "referencedIn"
+    },
+    "domain" : "51",
+    "attributes" : [ "object" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#generated",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "generated"
+    },
+    "domain" : "56",
+    "attributes" : [ "object" ],
+    "id" : "153"
+  }, {
+    "range" : "49",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#relatedTo",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "relatedTo"
+    },
+    "domain" : "51",
+    "attributes" : [ "object" ],
+    "id" : "155"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#interestedIn",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "124",
+    "label" : {
+      "IRI-based" : "interestedIn"
+    },
+    "domain" : "55",
+    "attributes" : [ "object" ],
+    "id" : "156"
+  }, {
+    "range" : "17",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "157"
+  }, {
+    "range" : "18",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#employed",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "82",
+    "label" : {
+      "IRI-based" : "employed"
+    },
+    "domain" : "55",
+    "attributes" : [ "object" ],
+    "id" : "159"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#resultedIn",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "114",
+    "label" : {
+      "IRI-based" : "resultedIn"
+    },
+    "domain" : "45",
+    "attributes" : [ "object" ],
+    "id" : "160"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#hasName",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "hasName"
+    },
+    "domain" : "3",
+    "attributes" : [ "datatype" ],
+    "id" : "161"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#isSupportedBy",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "isSupportedBy"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "57",
+    "attributes" : [ "object" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#citedAs",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "citedAs"
+    },
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "162"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#isRelatedTo",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "isRelatedTo"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "87",
+    "attributes" : [ "object", "inverse functional" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.semanticweb.org/van_gogh_ontology#locatedIn",
+    "baseIri" : "http://www.semanticweb.org/van_gogh_ontology",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "locatedIn"
+    },
+    "domain" : "96",
+    "attributes" : [ "object" ],
+    "id" : "163"
+  } ]
+}

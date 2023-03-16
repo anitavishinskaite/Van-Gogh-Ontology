@@ -1,0 +1,835 @@
+<http://www.semanticweb.org/van_gogh_ontology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/van_gogh_ontology#admittedTo
+<http://www.semanticweb.org/van_gogh_ontology#admittedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#admittedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Artist> .
+<http://www.semanticweb.org/van_gogh_ontology#admittedTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Institution> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#applied
+<http://www.semanticweb.org/van_gogh_ontology#applied> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#applied> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Painter> .
+<http://www.semanticweb.org/van_gogh_ontology#applied> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Color> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#associatedWith
+<http://www.semanticweb.org/van_gogh_ontology#associatedWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#associatedWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Painter> .
+<http://www.semanticweb.org/van_gogh_ontology#associatedWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Art_Movement> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#becameASymbolOf
+<http://www.semanticweb.org/van_gogh_ontology#becameASymbolOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#becameASymbolOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Artwork> .
+<http://www.semanticweb.org/van_gogh_ontology#becameASymbolOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Historical_and_Cultural_Significance> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#citedAs
+<http://www.semanticweb.org/van_gogh_ontology#citedAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#citedAs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Artwork> .
+<http://www.semanticweb.org/van_gogh_ontology#citedAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Historical_and_Cultural_Significance> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#contains
+<http://www.semanticweb.org/van_gogh_ontology#contains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#contains> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Painting> .
+<http://www.semanticweb.org/van_gogh_ontology#contains> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Complementary_Colors> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#contributedIn
+<http://www.semanticweb.org/van_gogh_ontology#contributedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#contributedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Artwork> .
+<http://www.semanticweb.org/van_gogh_ontology#contributedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Historical_and_Cultural_Significance> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#createdBy
+<http://www.semanticweb.org/van_gogh_ontology#createdBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#createdBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#createdBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Artwork> .
+<http://www.semanticweb.org/van_gogh_ontology#createdBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Person> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#emphasized
+<http://www.semanticweb.org/van_gogh_ontology#emphasized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#emphasized> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Art_Movement> .
+<http://www.semanticweb.org/van_gogh_ontology#emphasized> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Elements_of_Composition> .
+<http://www.semanticweb.org/van_gogh_ontology#emphasized> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Emotion> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#employed
+<http://www.semanticweb.org/van_gogh_ontology#employed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#employed> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Painter> .
+<http://www.semanticweb.org/van_gogh_ontology#employed> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Brushstroke> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#evidentInTheUse
+<http://www.semanticweb.org/van_gogh_ontology#evidentInTheUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#evidentInTheUse> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Pattern> .
+<http://www.semanticweb.org/van_gogh_ontology#evidentInTheUse> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Complementary_Colors> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#focusedOn
+<http://www.semanticweb.org/van_gogh_ontology#focusedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#focusedOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Art_Movement> .
+<http://www.semanticweb.org/van_gogh_ontology#focusedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Color> .
+<http://www.semanticweb.org/van_gogh_ontology#focusedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Elements_of_Composition> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#generated
+<http://www.semanticweb.org/van_gogh_ontology#generated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#generated> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Complementary_Colors> .
+<http://www.semanticweb.org/van_gogh_ontology#generated> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Elements_of_Composition> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#hasConcept
+<http://www.semanticweb.org/van_gogh_ontology#hasConcept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#hasConcept> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#hasConcept> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Artwork> .
+<http://www.semanticweb.org/van_gogh_ontology#hasConcept> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Concept_of_Artwork> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#hasInspirationSource
+<http://www.semanticweb.org/van_gogh_ontology#hasInspirationSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#hasInspirationSource> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#hasInspirationSource> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Artwork> .
+<http://www.semanticweb.org/van_gogh_ontology#hasInspirationSource> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Inspiration> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#hasInterpretation
+<http://www.semanticweb.org/van_gogh_ontology#hasInterpretation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#hasInterpretation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#hasInterpretation> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Artwork> .
+<http://www.semanticweb.org/van_gogh_ontology#hasInterpretation> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Interpretation> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#hasMeaning
+<http://www.semanticweb.org/van_gogh_ontology#hasMeaning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#hasMeaning> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#hasMeaning> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Color> .
+<http://www.semanticweb.org/van_gogh_ontology#hasMeaning> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Interpretation> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#influencedBy
+<http://www.semanticweb.org/van_gogh_ontology#influencedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#influencedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism> .
+<http://www.semanticweb.org/van_gogh_ontology#influencedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Impressionism> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#inspiredBy
+<http://www.semanticweb.org/van_gogh_ontology#inspiredBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#inspiredBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Artist> .
+<http://www.semanticweb.org/van_gogh_ontology#inspiredBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Inspiration> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#interestedIn
+<http://www.semanticweb.org/van_gogh_ontology#interestedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#interestedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Painter> .
+<http://www.semanticweb.org/van_gogh_ontology#interestedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Color_Theory> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#interpretedAs
+<http://www.semanticweb.org/van_gogh_ontology#interpretedAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#interpretedAs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Painting> .
+<http://www.semanticweb.org/van_gogh_ontology#interpretedAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Interpretation> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#isAbout
+<http://www.semanticweb.org/van_gogh_ontology#isAbout> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#isAbout> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#isAbout> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Idea_of_Artwork> .
+<http://www.semanticweb.org/van_gogh_ontology#isAbout> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Artwork> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#isDepictedOn
+<http://www.semanticweb.org/van_gogh_ontology#isDepictedOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#isDepictedOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#isDepictedOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Place> .
+<http://www.semanticweb.org/van_gogh_ontology#isDepictedOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Artwork> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#isGivenBy
+<http://www.semanticweb.org/van_gogh_ontology#isGivenBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#isGivenBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#isGivenBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Interpretation> .
+<http://www.semanticweb.org/van_gogh_ontology#isGivenBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Scholar> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#isRelatedTo
+<http://www.semanticweb.org/van_gogh_ontology#isRelatedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#isRelatedTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#isRelatedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#isRelatedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Biblical_Episode> .
+<http://www.semanticweb.org/van_gogh_ontology#isRelatedTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Painting> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#isSignificantElementIn
+<http://www.semanticweb.org/van_gogh_ontology#isSignificantElementIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#isSignificantElementIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Color> .
+<http://www.semanticweb.org/van_gogh_ontology#isSignificantElementIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Painting> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#isSupportedBy
+<http://www.semanticweb.org/van_gogh_ontology#isSupportedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#isSupportedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#isSupportedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Artistic_Approach> .
+<http://www.semanticweb.org/van_gogh_ontology#isSupportedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Painter> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#linkedWith
+<http://www.semanticweb.org/van_gogh_ontology#linkedWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#linkedWith> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Brushstroke> .
+<http://www.semanticweb.org/van_gogh_ontology#linkedWith> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Emotion> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#locatedIn
+<http://www.semanticweb.org/van_gogh_ontology#locatedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#locatedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Institution> .
+<http://www.semanticweb.org/van_gogh_ontology#locatedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Commune> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#occuredIn
+<http://www.semanticweb.org/van_gogh_ontology#occuredIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#occuredIn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#occuredIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Idea_of_Artwork> .
+<http://www.semanticweb.org/van_gogh_ontology#occuredIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Place> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#preceded
+<http://www.semanticweb.org/van_gogh_ontology#preceded> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#preceded> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#preceded> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Artwork> .
+<http://www.semanticweb.org/van_gogh_ontology#preceded> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Artwork> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#referencedIn
+<http://www.semanticweb.org/van_gogh_ontology#referencedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#referencedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Painting> .
+<http://www.semanticweb.org/van_gogh_ontology#referencedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Popular_Culture> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#relatedTo
+<http://www.semanticweb.org/van_gogh_ontology#relatedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#relatedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Painting> .
+<http://www.semanticweb.org/van_gogh_ontology#relatedTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Art_Movement> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#resultedIn
+<http://www.semanticweb.org/van_gogh_ontology#resultedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#resultedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Color> .
+<http://www.semanticweb.org/van_gogh_ontology#resultedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Artistic_Approach> .
+<http://www.semanticweb.org/van_gogh_ontology#resultedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Artistic_Expression> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#seenAs
+<http://www.semanticweb.org/van_gogh_ontology#seenAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#seenAs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Brushstroke> .
+<http://www.semanticweb.org/van_gogh_ontology#seenAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Artistic_Approach> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#used
+<http://www.semanticweb.org/van_gogh_ontology#used> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#used> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Painter> .
+<http://www.semanticweb.org/van_gogh_ontology#used> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Complementary_Colors> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#usedIn
+<http://www.semanticweb.org/van_gogh_ontology#usedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#usedIn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#usedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Artistic_Approach> .
+<http://www.semanticweb.org/van_gogh_ontology#usedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Painting> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#utilized
+<http://www.semanticweb.org/van_gogh_ontology#utilized> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#utilized> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Artist> .
+<http://www.semanticweb.org/van_gogh_ontology#utilized> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/van_gogh_ontology#Elements_of_Art> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/van_gogh_ontology#bornInYear
+<http://www.semanticweb.org/van_gogh_ontology#bornInYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#bornInYear> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#consideredAs
+<http://www.semanticweb.org/van_gogh_ontology#consideredAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#consideredAs> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Art_Movement> .
+<http://www.semanticweb.org/van_gogh_ontology#consideredAs> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#hasDescription
+<http://www.semanticweb.org/van_gogh_ontology#hasDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#hasDescription> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#hasDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Place> .
+<http://www.semanticweb.org/van_gogh_ontology#hasDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#hasFullName
+<http://www.semanticweb.org/van_gogh_ontology#hasFullName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#hasFullName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#hasName
+<http://www.semanticweb.org/van_gogh_ontology#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#hasName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#hasName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Person> .
+<http://www.semanticweb.org/van_gogh_ontology#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#hasNationality
+<http://www.semanticweb.org/van_gogh_ontology#hasNationality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#hasNationality> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#hasSubject
+<http://www.semanticweb.org/van_gogh_ontology#hasSubject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#hasSubject> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#hasSubject> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Artistic_Approach> .
+<http://www.semanticweb.org/van_gogh_ontology#hasSubject> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Biblical_Episode> .
+<http://www.semanticweb.org/van_gogh_ontology#hasSubject> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#hasTitle
+<http://www.semanticweb.org/van_gogh_ontology#hasTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#hasTitle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#hasTitle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Artwork> .
+<http://www.semanticweb.org/van_gogh_ontology#hasTitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#occuredOn
+<http://www.semanticweb.org/van_gogh_ontology#occuredOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#occuredOn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/van_gogh_ontology#occuredOn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/van_gogh_ontology#Idea_of_Artwork> .
+<http://www.semanticweb.org/van_gogh_ontology#occuredOn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Art_Movement
+<http://www.semanticweb.org/van_gogh_ontology#Art_Movement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Artist
+<http://www.semanticweb.org/van_gogh_ontology#Artist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Artist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Person> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Artistic_Approach
+<http://www.semanticweb.org/van_gogh_ontology#Artistic_Approach> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Artistic_Expression
+<http://www.semanticweb.org/van_gogh_ontology#Artistic_Expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Artwork
+<http://www.semanticweb.org/van_gogh_ontology#Artwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Asylum
+<http://www.semanticweb.org/van_gogh_ontology#Asylum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Asylum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Institution> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Balance
+<http://www.semanticweb.org/van_gogh_ontology#Balance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Balance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Elements_of_Composition> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Biblical_Episode
+<http://www.semanticweb.org/van_gogh_ontology#Biblical_Episode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Brushstroke
+<http://www.semanticweb.org/van_gogh_ontology#Brushstroke> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Brushstroke> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Artistic_Expression> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Color
+<http://www.semanticweb.org/van_gogh_ontology#Color> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Color> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Elements_of_Art> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Color_Theory
+<http://www.semanticweb.org/van_gogh_ontology#Color_Theory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Commune
+<http://www.semanticweb.org/van_gogh_ontology#Commune> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Commune> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Real_Place> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Complementary_Colors
+<http://www.semanticweb.org/van_gogh_ontology#Complementary_Colors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Complementary_Colors> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Pattern> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Concept_of_Artwork
+<http://www.semanticweb.org/van_gogh_ontology#Concept_of_Artwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Country
+<http://www.semanticweb.org/van_gogh_ontology#Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Country> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Real_Place> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Elements_of_Art
+<http://www.semanticweb.org/van_gogh_ontology#Elements_of_Art> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Elements_of_Composition
+<http://www.semanticweb.org/van_gogh_ontology#Elements_of_Composition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Emotion
+<http://www.semanticweb.org/van_gogh_ontology#Emotion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Emotion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Artistic_Expression> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Expressionism
+<http://www.semanticweb.org/van_gogh_ontology#Expressionism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Expressionism> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Art_Movement> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Historical_and_Cultural_Significance
+<http://www.semanticweb.org/van_gogh_ontology#Historical_and_Cultural_Significance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Idea_of_Artwork
+<http://www.semanticweb.org/van_gogh_ontology#Idea_of_Artwork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Imagination
+<http://www.semanticweb.org/van_gogh_ontology#Imagination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Imagination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Inspiration> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Imagionary_Place
+<http://www.semanticweb.org/van_gogh_ontology#Imagionary_Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Imagionary_Place> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Place> .
+<http://www.semanticweb.org/van_gogh_ontology#Imagionary_Place> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/van_gogh_ontology#Real_Place> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Impressionism
+<http://www.semanticweb.org/van_gogh_ontology#Impressionism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Impressionism> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Art_Movement> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Inspiration
+<http://www.semanticweb.org/van_gogh_ontology#Inspiration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Institution
+<http://www.semanticweb.org/van_gogh_ontology#Institution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Institution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Real_Place> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Interpretation
+<http://www.semanticweb.org/van_gogh_ontology#Interpretation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Line
+<http://www.semanticweb.org/van_gogh_ontology#Line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Line> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Elements_of_Art> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Memory
+<http://www.semanticweb.org/van_gogh_ontology#Memory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Memory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Inspiration> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Mountain_Range
+<http://www.semanticweb.org/van_gogh_ontology#Mountain_Range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Mountain_Range> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Real_Place> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Observed_Reality
+<http://www.semanticweb.org/van_gogh_ontology#Observed_Reality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Observed_Reality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Inspiration> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Painter
+<http://www.semanticweb.org/van_gogh_ontology#Painter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Painter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Artist> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Painting
+<http://www.semanticweb.org/van_gogh_ontology#Painting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Painting> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Artwork> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Pattern
+<http://www.semanticweb.org/van_gogh_ontology#Pattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Pattern> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Color_Theory> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Person
+<http://www.semanticweb.org/van_gogh_ontology#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Place
+<http://www.semanticweb.org/van_gogh_ontology#Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Popular_Culture
+<http://www.semanticweb.org/van_gogh_ontology#Popular_Culture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Popular_Culture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Historical_and_Cultural_Significance> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism
+<http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Art_Movement> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Real_Place
+<http://www.semanticweb.org/van_gogh_ontology#Real_Place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Real_Place> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Place> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Scholar
+<http://www.semanticweb.org/van_gogh_ontology#Scholar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Scholar> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Person> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Shape
+<http://www.semanticweb.org/van_gogh_ontology#Shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Shape> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Elements_of_Art> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Structured_Compositions
+<http://www.semanticweb.org/van_gogh_ontology#Structured_Compositions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Structured_Compositions> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Elements_of_Composition> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Texture
+<http://www.semanticweb.org/van_gogh_ontology#Texture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Texture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Elements_of_Art> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Town
+<http://www.semanticweb.org/van_gogh_ontology#Town> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Town> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Real_Place> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Use_of_Light
+<http://www.semanticweb.org/van_gogh_ontology#Use_of_Light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Use_of_Light> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Elements_of_Composition> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#View
+<http://www.semanticweb.org/van_gogh_ontology#View> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#View> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Observed_Reality> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Visual_Tension
+<http://www.semanticweb.org/van_gogh_ontology#Visual_Tension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/van_gogh_ontology#Visual_Tension> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/van_gogh_ontology#Elements_of_Composition> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Alpilles_mountains
+<http://www.semanticweb.org/van_gogh_ontology#Alpilles_mountains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Alpilles_mountains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Mountain_Range> .
+<http://www.semanticweb.org/van_gogh_ontology#Alpilles_mountains> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Real_Place> .
+<http://www.semanticweb.org/van_gogh_ontology#Alpilles_mountains> <http://www.semanticweb.org/van_gogh_ontology#isDepictedOn> <http://www.semanticweb.org/van_gogh_ontology#Starry_Night> .
+<http://www.semanticweb.org/van_gogh_ontology#Alpilles_mountains> <http://www.semanticweb.org/van_gogh_ontology#hasDescription> "The Chaîne des Alpilles is a small range of low mountains in Provence, southern France, located about 20 km south of Avignon."@en .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Arles
+<http://www.semanticweb.org/van_gogh_ontology#Arles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Arles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Real_Place> .
+<http://www.semanticweb.org/van_gogh_ontology#Arles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Town> .
+<http://www.semanticweb.org/van_gogh_ontology#Arles> <http://www.semanticweb.org/van_gogh_ontology#isDepictedOn> <http://www.semanticweb.org/van_gogh_ontology#Cafe_Terrace_at_Night> .
+<http://www.semanticweb.org/van_gogh_ontology#Arles> <http://www.semanticweb.org/van_gogh_ontology#isDepictedOn> <http://www.semanticweb.org/van_gogh_ontology#Starry_Night_Order_the_Rhone> .
+<http://www.semanticweb.org/van_gogh_ontology#Arles> <http://www.semanticweb.org/van_gogh_ontology#locatedIn> <http://www.semanticweb.org/van_gogh_ontology#France> .
+<http://www.semanticweb.org/van_gogh_ontology#Arles> <http://www.semanticweb.org/van_gogh_ontology#hasDescription> "Arles is a coastal city and commune in the South of France, a subprefecture in the Bouches-du-Rhône department of the Provence-Alpes-Côte d'Azur region, in the former province of Provence."@en .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Artistic_Legacy
+<http://www.semanticweb.org/van_gogh_ontology#Artistic_Legacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Artistic_Legacy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Historical_and_Cultural_Significance> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Balance
+<http://www.semanticweb.org/van_gogh_ontology#Balance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Balance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Balance> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Blue
+<http://www.semanticweb.org/van_gogh_ontology#Blue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Blue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Complementary_Colors> .
+<http://www.semanticweb.org/van_gogh_ontology#Blue> <http://www.semanticweb.org/van_gogh_ontology#generated> <http://www.semanticweb.org/van_gogh_ontology#Balance> .
+<http://www.semanticweb.org/van_gogh_ontology#Blue> <http://www.semanticweb.org/van_gogh_ontology#generated> <http://www.semanticweb.org/van_gogh_ontology#Visual_Tension> .
+<http://www.semanticweb.org/van_gogh_ontology#Blue> <http://www.semanticweb.org/van_gogh_ontology#hasMeaning> <http://www.semanticweb.org/van_gogh_ontology#Religious_Meaning> .
+<http://www.semanticweb.org/van_gogh_ontology#Blue> <http://www.semanticweb.org/van_gogh_ontology#usedIn> <http://www.semanticweb.org/van_gogh_ontology#Starry_Night> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Bold_Brushstrokes
+<http://www.semanticweb.org/van_gogh_ontology#Bold_Brushstrokes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Bold_Brushstrokes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Brushstroke> .
+<http://www.semanticweb.org/van_gogh_ontology#Bold_Brushstrokes> <http://www.semanticweb.org/van_gogh_ontology#linkedWith> <http://www.semanticweb.org/van_gogh_ontology#Emotional_State> .
+<http://www.semanticweb.org/van_gogh_ontology#Bold_Brushstrokes> <http://www.semanticweb.org/van_gogh_ontology#seenAs> <http://www.semanticweb.org/van_gogh_ontology#Unique_Style> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Bright_Colors
+<http://www.semanticweb.org/van_gogh_ontology#Bright_Colors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Bright_Colors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Color> .
+<http://www.semanticweb.org/van_gogh_ontology#Bright_Colors> <http://www.semanticweb.org/van_gogh_ontology#resultedIn> <http://www.semanticweb.org/van_gogh_ontology#Emotional_State> .
+<http://www.semanticweb.org/van_gogh_ontology#Bright_Colors> <http://www.semanticweb.org/van_gogh_ontology#resultedIn> <http://www.semanticweb.org/van_gogh_ontology#Visual_Impact> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Cafe_Terrace_at_Night
+<http://www.semanticweb.org/van_gogh_ontology#Cafe_Terrace_at_Night> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Cafe_Terrace_at_Night> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Painting> .
+<http://www.semanticweb.org/van_gogh_ontology#Cafe_Terrace_at_Night> <http://www.semanticweb.org/van_gogh_ontology#createdBy> <http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> .
+<http://www.semanticweb.org/van_gogh_ontology#Cafe_Terrace_at_Night> <http://www.semanticweb.org/van_gogh_ontology#hasConcept> <http://www.semanticweb.org/van_gogh_ontology#Concept_StarryNight> .
+<http://www.semanticweb.org/van_gogh_ontology#Cafe_Terrace_at_Night> <http://www.semanticweb.org/van_gogh_ontology#hasInspirationSource> <http://www.semanticweb.org/van_gogh_ontology#Urban_landscapes_of_Arles> .
+<http://www.semanticweb.org/van_gogh_ontology#Cafe_Terrace_at_Night> <http://www.semanticweb.org/van_gogh_ontology#preceded> <http://www.semanticweb.org/van_gogh_ontology#Starry_Night> .
+<http://www.semanticweb.org/van_gogh_ontology#Cafe_Terrace_at_Night> <http://www.semanticweb.org/van_gogh_ontology#relatedTo> <http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism> .
+<http://www.semanticweb.org/van_gogh_ontology#Cafe_Terrace_at_Night> <http://www.semanticweb.org/van_gogh_ontology#hasTitle> "Cafe Terrace at Night"@en .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Citron-yellow
+<http://www.semanticweb.org/van_gogh_ontology#Citron-yellow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Citron-yellow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Complementary_Colors> .
+<http://www.semanticweb.org/van_gogh_ontology#Citron-yellow> <http://www.semanticweb.org/van_gogh_ontology#generated> <http://www.semanticweb.org/van_gogh_ontology#Balance> .
+<http://www.semanticweb.org/van_gogh_ontology#Citron-yellow> <http://www.semanticweb.org/van_gogh_ontology#generated> <http://www.semanticweb.org/van_gogh_ontology#Visual_Tension> .
+<http://www.semanticweb.org/van_gogh_ontology#Citron-yellow> <http://www.semanticweb.org/van_gogh_ontology#hasMeaning> <http://www.semanticweb.org/van_gogh_ontology#Religious_Meaning> .
+<http://www.semanticweb.org/van_gogh_ontology#Citron-yellow> <http://www.semanticweb.org/van_gogh_ontology#usedIn> <http://www.semanticweb.org/van_gogh_ontology#Starry_Night> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Color
+<http://www.semanticweb.org/van_gogh_ontology#Color> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Color> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Color> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Concept_StarryNight
+<http://www.semanticweb.org/van_gogh_ontology#Concept_StarryNight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Concept_StarryNight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Concept_of_Artwork> .
+<http://www.semanticweb.org/van_gogh_ontology#Concept_StarryNight> <http://www.semanticweb.org/van_gogh_ontology#hasSubject> "Starry Night"@en .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Contrasting_Colors
+<http://www.semanticweb.org/van_gogh_ontology#Contrasting_Colors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Contrasting_Colors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Color> .
+<http://www.semanticweb.org/van_gogh_ontology#Contrasting_Colors> <http://www.semanticweb.org/van_gogh_ontology#resultedIn> <http://www.semanticweb.org/van_gogh_ontology#Emotional_State> .
+<http://www.semanticweb.org/van_gogh_ontology#Contrasting_Colors> <http://www.semanticweb.org/van_gogh_ontology#resultedIn> <http://www.semanticweb.org/van_gogh_ontology#Visual_Impact> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Development_of_Modern_Art
+<http://www.semanticweb.org/van_gogh_ontology#Development_of_Modern_Art> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Development_of_Modern_Art> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Historical_and_Cultural_Significance> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Emile_Bernard
+<http://www.semanticweb.org/van_gogh_ontology#Emile_Bernard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Emile_Bernard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Painter> .
+<http://www.semanticweb.org/van_gogh_ontology#Emile_Bernard> <http://www.semanticweb.org/van_gogh_ontology#hasName> "Emile Bernard" .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Emotional_State
+<http://www.semanticweb.org/van_gogh_ontology#Emotional_State> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Emotional_State> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Emotion> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Eugene_Henri_Paul_Gauguin
+<http://www.semanticweb.org/van_gogh_ontology#Eugene_Henri_Paul_Gauguin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Eugene_Henri_Paul_Gauguin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Painter> .
+<http://www.semanticweb.org/van_gogh_ontology#Eugene_Henri_Paul_Gauguin> <http://www.semanticweb.org/van_gogh_ontology#hasName> "Eugene Henri Paul Gauguin" .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Example_of_Post-Impressionist_Style
+<http://www.semanticweb.org/van_gogh_ontology#Example_of_Post-Impressionist_Style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Example_of_Post-Impressionist_Style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Historical_and_Cultural_Significance> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Expressionism
+<http://www.semanticweb.org/van_gogh_ontology#Expressionism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Expressionism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Expressionism> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Expressive_Brushstrokes
+<http://www.semanticweb.org/van_gogh_ontology#Expressive_Brushstrokes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Expressive_Brushstrokes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Brushstroke> .
+<http://www.semanticweb.org/van_gogh_ontology#Expressive_Brushstrokes> <http://www.semanticweb.org/van_gogh_ontology#linkedWith> <http://www.semanticweb.org/van_gogh_ontology#Emotional_State> .
+<http://www.semanticweb.org/van_gogh_ontology#Expressive_Brushstrokes> <http://www.semanticweb.org/van_gogh_ontology#seenAs> <http://www.semanticweb.org/van_gogh_ontology#Unique_Style> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Films
+<http://www.semanticweb.org/van_gogh_ontology#Films> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Films> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Popular_Culture> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#France
+<http://www.semanticweb.org/van_gogh_ontology#France> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#France> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Country> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Idea_StarryNight
+<http://www.semanticweb.org/van_gogh_ontology#Idea_StarryNight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Idea_StarryNight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Idea_of_Artwork> .
+<http://www.semanticweb.org/van_gogh_ontology#Idea_StarryNight> <http://www.semanticweb.org/van_gogh_ontology#isAbout> <http://www.semanticweb.org/van_gogh_ontology#Starry_Night> .
+<http://www.semanticweb.org/van_gogh_ontology#Idea_StarryNight> <http://www.semanticweb.org/van_gogh_ontology#occuredIn> <http://www.semanticweb.org/van_gogh_ontology#Arles> .
+<http://www.semanticweb.org/van_gogh_ontology#Idea_StarryNight> <http://www.semanticweb.org/van_gogh_ontology#occuredOn> "Spring 1888" .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Images_of_crescents_in_art
+<http://www.semanticweb.org/van_gogh_ontology#Images_of_crescents_in_art> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Images_of_crescents_in_art> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Memory> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Imagination_of_something_sublime
+<http://www.semanticweb.org/van_gogh_ontology#Imagination_of_something_sublime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Imagination_of_something_sublime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Imagination> .
+<http://www.semanticweb.org/van_gogh_ontology#Imagination_of_something_sublime> <http://www.semanticweb.org/van_gogh_ontology#hasSubject> "Imagination of something more sublime and pure opposed to everyday reality" .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Impressionism
+<http://www.semanticweb.org/van_gogh_ontology#Impressionism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Impressionism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Impressionism> .
+<http://www.semanticweb.org/van_gogh_ontology#Impressionism> <http://www.semanticweb.org/van_gogh_ontology#focusedOn> <http://www.semanticweb.org/van_gogh_ontology#Natural_Colors> .
+<http://www.semanticweb.org/van_gogh_ontology#Impressionism> <http://www.semanticweb.org/van_gogh_ontology#focusedOn> <http://www.semanticweb.org/van_gogh_ontology#Use_of_Light> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Irises
+<http://www.semanticweb.org/van_gogh_ontology#Irises> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Irises> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Painting> .
+<http://www.semanticweb.org/van_gogh_ontology#Irises> <http://www.semanticweb.org/van_gogh_ontology#createdBy> <http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> .
+<http://www.semanticweb.org/van_gogh_ontology#Irises> <http://www.semanticweb.org/van_gogh_ontology#relatedTo> <http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Lauren_Soth
+<http://www.semanticweb.org/van_gogh_ontology#Lauren_Soth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Lauren_Soth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Scholar> .
+<http://www.semanticweb.org/van_gogh_ontology#Lauren_Soth> <http://www.semanticweb.org/van_gogh_ontology#hasName> "Lauren Soth" .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Line
+<http://www.semanticweb.org/van_gogh_ontology#Line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Line> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Line> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Music
+<http://www.semanticweb.org/van_gogh_ontology#Music> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Music> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Popular_Culture> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Natural_Colors
+<http://www.semanticweb.org/van_gogh_ontology#Natural_Colors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Natural_Colors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Color> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Orange
+<http://www.semanticweb.org/van_gogh_ontology#Orange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Orange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Complementary_Colors> .
+<http://www.semanticweb.org/van_gogh_ontology#Orange> <http://www.semanticweb.org/van_gogh_ontology#generated> <http://www.semanticweb.org/van_gogh_ontology#Balance> .
+<http://www.semanticweb.org/van_gogh_ontology#Orange> <http://www.semanticweb.org/van_gogh_ontology#generated> <http://www.semanticweb.org/van_gogh_ontology#Visual_Tension> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Personal_Struggles_with_Mental_Illness
+<http://www.semanticweb.org/van_gogh_ontology#Personal_Struggles_with_Mental_Illness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Personal_Struggles_with_Mental_Illness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Interpretation> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism
+<http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism> .
+<http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism> <http://www.semanticweb.org/van_gogh_ontology#emphasized> <http://www.semanticweb.org/van_gogh_ontology#Structured_Compositions> .
+<http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism> <http://www.semanticweb.org/van_gogh_ontology#emphasized> <http://www.semanticweb.org/van_gogh_ontology#Subjective_Emotional_Expression> .
+<http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism> <http://www.semanticweb.org/van_gogh_ontology#influencedBy> <http://www.semanticweb.org/van_gogh_ontology#Impressionism> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Religious_Meaning
+<http://www.semanticweb.org/van_gogh_ontology#Religious_Meaning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Religious_Meaning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Interpretation> .
+<http://www.semanticweb.org/van_gogh_ontology#Religious_Meaning> <http://www.semanticweb.org/van_gogh_ontology#isGivenBy> <http://www.semanticweb.org/van_gogh_ontology#Lauren_Soth> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Saint-Paul-de-Mausole_Asylum
+<http://www.semanticweb.org/van_gogh_ontology#Saint-Paul-de-Mausole_Asylum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Saint-Paul-de-Mausole_Asylum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Asylum> .
+<http://www.semanticweb.org/van_gogh_ontology#Saint-Paul-de-Mausole_Asylum> <http://www.semanticweb.org/van_gogh_ontology#locatedIn> <http://www.semanticweb.org/van_gogh_ontology#Saint-Rémy-de-Provence> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Saint-Rémy-de-Provence
+<http://www.semanticweb.org/van_gogh_ontology#Saint-Rémy-de-Provence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Saint-Rémy-de-Provence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Commune> .
+<http://www.semanticweb.org/van_gogh_ontology#Saint-Rémy-de-Provence> <http://www.semanticweb.org/van_gogh_ontology#locatedIn> <http://www.semanticweb.org/van_gogh_ontology#France> .
+<http://www.semanticweb.org/van_gogh_ontology#Saint-Rémy-de-Provence> <http://www.semanticweb.org/van_gogh_ontology#hasDescription> "Saint-Rémy-de-Provence is a commune in the Bouches-du-Rhône department, Provence-Alpes-Côte d'Azur, Southern France. Located in the northern part of the Alpilles, of which it is the main town, it had a population of 9,893 in 2017." .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Shape
+<http://www.semanticweb.org/van_gogh_ontology#Shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Shape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Shape> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Starry_Night
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Painting> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#associatedWith> <http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#becameASymbolOf> <http://www.semanticweb.org/van_gogh_ontology#Artistic_Legacy> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#citedAs> <http://www.semanticweb.org/van_gogh_ontology#Example_of_Post-Impressionist_Style> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#contains> <http://www.semanticweb.org/van_gogh_ontology#Blue> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#contains> <http://www.semanticweb.org/van_gogh_ontology#Citron-yellow> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#contains> <http://www.semanticweb.org/van_gogh_ontology#Orange> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#contributedIn> <http://www.semanticweb.org/van_gogh_ontology#Development_of_Modern_Art> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#createdBy> <http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#hasConcept> <http://www.semanticweb.org/van_gogh_ontology#Concept_StarryNight> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#hasInspirationSource> <http://www.semanticweb.org/van_gogh_ontology#Images_of_crescents_in_art> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#hasInspirationSource> <http://www.semanticweb.org/van_gogh_ontology#Imagination_of_something_sublime> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#hasInspirationSource> <http://www.semanticweb.org/van_gogh_ontology#Typical_churches_of_Brabant_Netherlands> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#hasInspirationSource> <http://www.semanticweb.org/van_gogh_ontology#View_From_Bedroom_Window> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#hasInterpretation> <http://www.semanticweb.org/van_gogh_ontology#Religious_Meaning> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#inspiredBy> <http://www.semanticweb.org/van_gogh_ontology#View_From_Bedroom_Window> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#interpretedAs> <http://www.semanticweb.org/van_gogh_ontology#Personal_Struggles_with_Mental_Illness> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#interpretedAs> <http://www.semanticweb.org/van_gogh_ontology#Transformative_Power_of_Nature_and_Art> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#isRelatedTo> <http://www.semanticweb.org/van_gogh_ontology#The_Agony_in_the_Garden> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#referencedIn> <http://www.semanticweb.org/van_gogh_ontology#Films> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#referencedIn> <http://www.semanticweb.org/van_gogh_ontology#Music> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#referencedIn> <http://www.semanticweb.org/van_gogh_ontology#Television> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#relatedTo> <http://www.semanticweb.org/van_gogh_ontology#The_Bedroom> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night> <http://www.semanticweb.org/van_gogh_ontology#hasTitle> "Starry Night" .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Starry_Night_Order_the_Rhone
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night_Order_the_Rhone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night_Order_the_Rhone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Painting> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night_Order_the_Rhone> <http://www.semanticweb.org/van_gogh_ontology#createdBy> <http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night_Order_the_Rhone> <http://www.semanticweb.org/van_gogh_ontology#hasConcept> <http://www.semanticweb.org/van_gogh_ontology#Concept_StarryNight> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night_Order_the_Rhone> <http://www.semanticweb.org/van_gogh_ontology#hasInspirationSource> <http://www.semanticweb.org/van_gogh_ontology#Urban_landscapes_of_Arles> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night_Order_the_Rhone> <http://www.semanticweb.org/van_gogh_ontology#preceded> <http://www.semanticweb.org/van_gogh_ontology#Starry_Night> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night_Order_the_Rhone> <http://www.semanticweb.org/van_gogh_ontology#relatedTo> <http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism> .
+<http://www.semanticweb.org/van_gogh_ontology#Starry_Night_Order_the_Rhone> <http://www.semanticweb.org/van_gogh_ontology#hasTitle> "Starry Night Order the Rhone"@en .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Structured_Compositions
+<http://www.semanticweb.org/van_gogh_ontology#Structured_Compositions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Structured_Compositions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Structured_Compositions> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Subjective_Emotional_Expression
+<http://www.semanticweb.org/van_gogh_ontology#Subjective_Emotional_Expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Subjective_Emotional_Expression> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Emotion> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Television
+<http://www.semanticweb.org/van_gogh_ontology#Television> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Television> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Popular_Culture> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Texture
+<http://www.semanticweb.org/van_gogh_ontology#Texture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Texture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Texture> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#The_Agony_in_the_Garden
+<http://www.semanticweb.org/van_gogh_ontology#The_Agony_in_the_Garden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#The_Agony_in_the_Garden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Biblical_Episode> .
+<http://www.semanticweb.org/van_gogh_ontology#The_Agony_in_the_Garden> <http://www.semanticweb.org/van_gogh_ontology#isRelatedTo> <http://www.semanticweb.org/van_gogh_ontology#Starry_Night> .
+<http://www.semanticweb.org/van_gogh_ontology#The_Agony_in_the_Garden> <http://www.semanticweb.org/van_gogh_ontology#hasSubject> "Christ with the Angel in Gethsemane\nor The Agony in the Garden"@en .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#The_Bedroom
+<http://www.semanticweb.org/van_gogh_ontology#The_Bedroom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#The_Bedroom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Painting> .
+<http://www.semanticweb.org/van_gogh_ontology#The_Bedroom> <http://www.semanticweb.org/van_gogh_ontology#createdBy> <http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> .
+<http://www.semanticweb.org/van_gogh_ontology#The_Bedroom> <http://www.semanticweb.org/van_gogh_ontology#relatedTo> <http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Transformative_Power_of_Nature_and_Art
+<http://www.semanticweb.org/van_gogh_ontology#Transformative_Power_of_Nature_and_Art> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Transformative_Power_of_Nature_and_Art> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Interpretation> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Typical_churches_of_Brabant_Netherlands
+<http://www.semanticweb.org/van_gogh_ontology#Typical_churches_of_Brabant_Netherlands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Typical_churches_of_Brabant_Netherlands> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Memory> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Unique_Style
+<http://www.semanticweb.org/van_gogh_ontology#Unique_Style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Unique_Style> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Artistic_Approach> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Urban_landscapes_of_Arles
+<http://www.semanticweb.org/van_gogh_ontology#Urban_landscapes_of_Arles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Urban_landscapes_of_Arles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#View> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Use_of_Light
+<http://www.semanticweb.org/van_gogh_ontology#Use_of_Light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Use_of_Light> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Use_of_Light> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#View_From_Bedroom_Window
+<http://www.semanticweb.org/van_gogh_ontology#View_From_Bedroom_Window> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#View_From_Bedroom_Window> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#View> .
+<http://www.semanticweb.org/van_gogh_ontology#View_From_Bedroom_Window> <http://www.semanticweb.org/van_gogh_ontology#locatedIn> <http://www.semanticweb.org/van_gogh_ontology#France> .
+<http://www.semanticweb.org/van_gogh_ontology#View_From_Bedroom_Window> <http://www.semanticweb.org/van_gogh_ontology#locatedIn> <http://www.semanticweb.org/van_gogh_ontology#Saint-Paul-de-Mausole_Asylum> .
+<http://www.semanticweb.org/van_gogh_ontology#View_From_Bedroom_Window> <http://www.semanticweb.org/van_gogh_ontology#locatedIn> <http://www.semanticweb.org/van_gogh_ontology#Saint-Rémy-de-Provence> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Painter> .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.semanticweb.org/van_gogh_ontology#admittedTo> <http://www.semanticweb.org/van_gogh_ontology#Saint-Paul-de-Mausole_Asylum> .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.semanticweb.org/van_gogh_ontology#applied> <http://www.semanticweb.org/van_gogh_ontology#Bright_Colors> .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.semanticweb.org/van_gogh_ontology#applied> <http://www.semanticweb.org/van_gogh_ontology#Contrasting_Colors> .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.semanticweb.org/van_gogh_ontology#associatedWith> <http://www.semanticweb.org/van_gogh_ontology#Expressionism> .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.semanticweb.org/van_gogh_ontology#associatedWith> <http://www.semanticweb.org/van_gogh_ontology#Impressionism> .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.semanticweb.org/van_gogh_ontology#associatedWith> <http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism> .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.semanticweb.org/van_gogh_ontology#employed> <http://www.semanticweb.org/van_gogh_ontology#Bold_Brushstrokes> .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.semanticweb.org/van_gogh_ontology#employed> <http://www.semanticweb.org/van_gogh_ontology#Expressive_Brushstrokes> .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.semanticweb.org/van_gogh_ontology#inspiredBy> <http://www.semanticweb.org/van_gogh_ontology#View_From_Bedroom_Window> .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.semanticweb.org/van_gogh_ontology#used> <http://www.semanticweb.org/van_gogh_ontology#Blue> .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.semanticweb.org/van_gogh_ontology#used> <http://www.semanticweb.org/van_gogh_ontology#Citron-yellow> .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.semanticweb.org/van_gogh_ontology#used> <http://www.semanticweb.org/van_gogh_ontology#Orange> .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.semanticweb.org/van_gogh_ontology#utilized> <http://www.semanticweb.org/van_gogh_ontology#Color> .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.semanticweb.org/van_gogh_ontology#utilized> <http://www.semanticweb.org/van_gogh_ontology#Line> .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.semanticweb.org/van_gogh_ontology#utilized> <http://www.semanticweb.org/van_gogh_ontology#Shape> .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.semanticweb.org/van_gogh_ontology#utilized> <http://www.semanticweb.org/van_gogh_ontology#Texture> .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.semanticweb.org/van_gogh_ontology#bornInYear> "1853"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.semanticweb.org/van_gogh_ontology#consideredAs> "Post-Impressionist" .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.semanticweb.org/van_gogh_ontology#hasFullName> "Vincent Willem van Gogh" .
+<http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> <http://www.semanticweb.org/van_gogh_ontology#hasNationality> "Dutch" .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Visual_Impact
+<http://www.semanticweb.org/van_gogh_ontology#Visual_Impact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Visual_Impact> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Artistic_Approach> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Visual_Tension
+<http://www.semanticweb.org/van_gogh_ontology#Visual_Tension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Visual_Tension> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Visual_Tension> .
+# 
+# http://www.semanticweb.org/van_gogh_ontology#Working_from_Imagination
+<http://www.semanticweb.org/van_gogh_ontology#Working_from_Imagination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/van_gogh_ontology#Working_from_Imagination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/van_gogh_ontology#Artistic_Approach> .
+<http://www.semanticweb.org/van_gogh_ontology#Working_from_Imagination> <http://www.semanticweb.org/van_gogh_ontology#isSupportedBy> <http://www.semanticweb.org/van_gogh_ontology#Emile_Bernard> .
+<http://www.semanticweb.org/van_gogh_ontology#Working_from_Imagination> <http://www.semanticweb.org/van_gogh_ontology#isSupportedBy> <http://www.semanticweb.org/van_gogh_ontology#Eugene_Henri_Paul_Gauguin> .
+<http://www.semanticweb.org/van_gogh_ontology#Working_from_Imagination> <http://www.semanticweb.org/van_gogh_ontology#isSupportedBy> <http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh> .
+<http://www.semanticweb.org/van_gogh_ontology#Working_from_Imagination> <http://www.semanticweb.org/van_gogh_ontology#usedIn> <http://www.semanticweb.org/van_gogh_ontology#Starry_Night> .
+<http://www.semanticweb.org/van_gogh_ontology#Working_from_Imagination> <http://www.semanticweb.org/van_gogh_ontology#hasSubject> "Working from imagination" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid1 <http://www.w3.org/2002/07/owl#members> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/van_gogh_ontology#Visual_Tension> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/van_gogh_ontology#Use_of_Light> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/van_gogh_ontology#Structured_Compositions> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/van_gogh_ontology#Balance> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid6 <http://www.w3.org/2002/07/owl#members> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/van_gogh_ontology#Impressionism> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/van_gogh_ontology#Expressionism> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

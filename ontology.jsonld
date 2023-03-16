@@ -1,0 +1,1355 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/van_gogh_ontology#Balance"
+    }, {
+      "@id" : "http://www.semanticweb.org/van_gogh_ontology#Structured_Compositions"
+    }, {
+      "@id" : "http://www.semanticweb.org/van_gogh_ontology#Use_of_Light"
+    }, {
+      "@id" : "http://www.semanticweb.org/van_gogh_ontology#Visual_Tension"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/van_gogh_ontology#Expressionism"
+    }, {
+      "@id" : "http://www.semanticweb.org/van_gogh_ontology#Impressionism"
+    }, {
+      "@id" : "http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Alpilles_mountains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasDescription" : [ {
+    "@language" : "en",
+    "@value" : "The Chaîne des Alpilles is a small range of low mountains in Provence, southern France, located about 20 km south of Avignon."
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#isDepictedOn" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Starry_Night"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Mountain_Range"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Real_Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Arles",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasDescription" : [ {
+    "@language" : "en",
+    "@value" : "Arles is a coastal city and commune in the South of France, a subprefecture in the Bouches-du-Rhône department of the Provence-Alpes-Côte d'Azur region, in the former province of Provence."
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#isDepictedOn" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Cafe_Terrace_at_Night"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Starry_Night_Order_the_Rhone"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#locatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#France"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Real_Place"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Town"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Art_Movement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artistic_Approach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artistic_Expression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artistic_Legacy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Historical_and_Cultural_Significance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artwork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Asylum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Institution"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Balance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Balance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Elements_of_Composition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Biblical_Episode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Blue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#generated" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Balance"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Visual_Tension"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasMeaning" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Religious_Meaning"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#usedIn" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Starry_Night"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Complementary_Colors"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Bold_Brushstrokes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#linkedWith" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Emotional_State"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#seenAs" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Unique_Style"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Brushstroke"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Bright_Colors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#resultedIn" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Emotional_State"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Visual_Impact"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Color"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Brushstroke",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artistic_Expression"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Cafe_Terrace_at_Night",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#createdBy" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasConcept" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Concept_StarryNight"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasInspirationSource" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Urban_landscapes_of_Arles"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasTitle" : [ {
+    "@language" : "en",
+    "@value" : "Cafe Terrace at Night"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#preceded" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Starry_Night"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#relatedTo" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Citron-yellow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#generated" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Balance"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Visual_Tension"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasMeaning" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Religious_Meaning"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#usedIn" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Starry_Night"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Complementary_Colors"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Color",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Color"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Elements_of_Art"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Color_Theory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Commune",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Real_Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Complementary_Colors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Pattern"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Concept_StarryNight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasSubject" : [ {
+    "@language" : "en",
+    "@value" : "Starry Night"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Concept_of_Artwork"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Concept_of_Artwork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Contrasting_Colors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#resultedIn" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Emotional_State"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Visual_Impact"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Color"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Real_Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Development_of_Modern_Art",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Historical_and_Cultural_Significance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Elements_of_Art",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Elements_of_Composition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Emile_Bernard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasName" : [ {
+    "@value" : "Emile Bernard"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Emotion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artistic_Expression"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Emotional_State",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Emotion"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Eugene_Henri_Paul_Gauguin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasName" : [ {
+    "@value" : "Eugene Henri Paul Gauguin"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Example_of_Post-Impressionist_Style",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Historical_and_Cultural_Significance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Expressionism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Expressionism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Art_Movement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Expressive_Brushstrokes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#linkedWith" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Emotional_State"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#seenAs" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Unique_Style"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Brushstroke"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Films",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Popular_Culture"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#France",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Historical_and_Cultural_Significance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Idea_StarryNight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#isAbout" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Starry_Night"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#occuredIn" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Arles"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#occuredOn" : [ {
+    "@value" : "Spring 1888"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Idea_of_Artwork"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Idea_of_Artwork",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Images_of_crescents_in_art",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Memory"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Imagination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Inspiration"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Imagination_of_something_sublime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasSubject" : [ {
+    "@value" : "Imagination of something more sublime and pure opposed to everyday reality"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Imagination"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Imagionary_Place",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Place"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Real_Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Impressionism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#focusedOn" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Natural_Colors"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Use_of_Light"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Impressionism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Art_Movement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Inspiration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Institution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Real_Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Interpretation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Irises",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#createdBy" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#relatedTo" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Lauren_Soth",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasName" : [ {
+    "@value" : "Lauren Soth"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Scholar"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Line",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Line"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Elements_of_Art"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Memory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Inspiration"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Mountain_Range",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Real_Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Music",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Popular_Culture"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Natural_Colors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Color"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Observed_Reality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Inspiration"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Orange",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#generated" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Balance"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Visual_Tension"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Complementary_Colors"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artist"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artwork"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Pattern",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Color_Theory"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Personal_Struggles_with_Mental_Illness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Interpretation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Place",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Popular_Culture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Historical_and_Cultural_Significance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#emphasized" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Structured_Compositions"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Subjective_Emotional_Expression"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#influencedBy" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Impressionism"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Art_Movement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Real_Place",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Religious_Meaning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#isGivenBy" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Lauren_Soth"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Interpretation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Saint-Paul-de-Mausole_Asylum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#locatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Saint-Rémy-de-Provence"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Asylum"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Saint-Rémy-de-Provence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasDescription" : [ {
+    "@value" : "Saint-Rémy-de-Provence is a commune in the Bouches-du-Rhône department, Provence-Alpes-Côte d'Azur, Southern France. Located in the northern part of the Alpilles, of which it is the main town, it had a population of 9,893 in 2017."
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#locatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#France"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Commune"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Scholar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Person"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Shape",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Shape"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Elements_of_Art"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Starry_Night",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#associatedWith" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#becameASymbolOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artistic_Legacy"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#citedAs" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Example_of_Post-Impressionist_Style"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#contains" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Blue"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Citron-yellow"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Orange"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#contributedIn" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Development_of_Modern_Art"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#createdBy" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasConcept" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Concept_StarryNight"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasInspirationSource" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Images_of_crescents_in_art"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Imagination_of_something_sublime"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Typical_churches_of_Brabant_Netherlands"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#View_From_Bedroom_Window"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasInterpretation" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Religious_Meaning"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasTitle" : [ {
+    "@value" : "Starry Night"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#inspiredBy" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#View_From_Bedroom_Window"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#interpretedAs" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Personal_Struggles_with_Mental_Illness"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Transformative_Power_of_Nature_and_Art"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#isRelatedTo" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#The_Agony_in_the_Garden"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#referencedIn" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Films"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Music"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Television"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#relatedTo" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#The_Bedroom"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Starry_Night_Order_the_Rhone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#createdBy" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasConcept" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Concept_StarryNight"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasInspirationSource" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Urban_landscapes_of_Arles"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasTitle" : [ {
+    "@language" : "en",
+    "@value" : "Starry Night Order the Rhone"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#preceded" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Starry_Night"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#relatedTo" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Structured_Compositions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Structured_Compositions"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Elements_of_Composition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Subjective_Emotional_Expression",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Emotion"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Television",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Popular_Culture"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Texture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Texture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Elements_of_Art"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#The_Agony_in_the_Garden",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasSubject" : [ {
+    "@language" : "en",
+    "@value" : "Christ with the Angel in Gethsemane\nor The Agony in the Garden"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#isRelatedTo" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Starry_Night"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Biblical_Episode"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#The_Bedroom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#createdBy" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#relatedTo" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Town",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Real_Place"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Transformative_Power_of_Nature_and_Art",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Interpretation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Typical_churches_of_Brabant_Netherlands",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Memory"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Unique_Style",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artistic_Approach"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Urban_landscapes_of_Arles",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#View"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Use_of_Light",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Use_of_Light"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Elements_of_Composition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#View",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Observed_Reality"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#View_From_Bedroom_Window",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#locatedIn" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#France"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Saint-Paul-de-Mausole_Asylum"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Saint-Rémy-de-Provence"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#View"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#admittedTo" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Saint-Paul-de-Mausole_Asylum"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#applied" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Bright_Colors"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Contrasting_Colors"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#associatedWith" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Expressionism"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Impressionism"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#bornInYear" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1853"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#consideredAs" : [ {
+    "@value" : "Post-Impressionist"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#employed" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Bold_Brushstrokes"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Expressive_Brushstrokes"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasFullName" : [ {
+    "@value" : "Vincent Willem van Gogh"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasNationality" : [ {
+    "@value" : "Dutch"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#inspiredBy" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#View_From_Bedroom_Window"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#used" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Blue"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Citron-yellow"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Orange"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#utilized" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Color"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Line"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Shape"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Texture"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Visual_Impact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artistic_Approach"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Visual_Tension",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Visual_Tension"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Elements_of_Composition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#Working_from_Imagination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/van_gogh_ontology#hasSubject" : [ {
+    "@value" : "Working from imagination"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#isSupportedBy" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Emile_Bernard"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Eugene_Henri_Paul_Gauguin"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Vincent_van_Gogh"
+  } ],
+  "http://www.semanticweb.org/van_gogh_ontology#usedIn" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Starry_Night"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artistic_Approach"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#admittedTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Institution"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#applied",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Color"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#associatedWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Art_Movement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#becameASymbolOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Historical_and_Cultural_Significance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#bornInYear",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#citedAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Historical_and_Cultural_Significance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#consideredAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Art_Movement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#contains",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painting"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Complementary_Colors"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#contributedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Historical_and_Cultural_Significance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#createdBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#emphasized",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Art_Movement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Elements_of_Composition"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Emotion"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#employed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Brushstroke"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#evidentInTheUse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Pattern"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Complementary_Colors"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#focusedOn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Art_Movement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Color"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Elements_of_Composition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#generated",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Complementary_Colors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Elements_of_Composition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#hasConcept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Concept_of_Artwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#hasDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#hasFullName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#hasInspirationSource",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Inspiration"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#hasInterpretation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Interpretation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#hasMeaning",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Color"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Interpretation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#hasNationality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#hasSubject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artistic_Approach"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Biblical_Episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#hasTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#influencedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Post-Impressionism"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Impressionism"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#inspiredBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Inspiration"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#interestedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Color_Theory"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#interpretedAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painting"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Interpretation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#isAbout",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Idea_of_Artwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#isDepictedOn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#isGivenBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Interpretation"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Scholar"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#isRelatedTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Biblical_Episode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painting"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#isSignificantElementIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Color"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painting"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#isSupportedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artistic_Approach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#linkedWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Brushstroke"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Emotion"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#locatedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Institution"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Commune"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#occuredIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Idea_of_Artwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#occuredOn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Idea_of_Artwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#preceded",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artwork"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#referencedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painting"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Popular_Culture"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#relatedTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painting"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Art_Movement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#resultedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Color"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artistic_Approach"
+  }, {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artistic_Expression"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#seenAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Brushstroke"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artistic_Approach"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#used",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Complementary_Colors"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#usedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artistic_Approach"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Painting"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/van_gogh_ontology#utilized",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Artist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/van_gogh_ontology#Elements_of_Art"
+  } ]
+} ]
